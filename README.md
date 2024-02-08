@@ -1,5 +1,16 @@
 # Liquibase files for database management
 
+This bundle generates liquibase change logs from properties file.
+	Create table with revert statements
+	Update table with revert statements
+	Drop table with revert statements
+
+**Scripts for backward incompatible database changes like **
+	renaming a column
+	deleting a column
+	changing a column type
+
+
 This bundle generates the following Liquibase files:
 
  - "**liquibase.properties**"  
